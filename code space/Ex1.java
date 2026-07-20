@@ -5,7 +5,7 @@ class Ex {
         return name;
     }
     public int getMarks() {
-        return marks;  // fixed
+        return marks; 
     }
     public void setName(String name) {
         this.name = name;
@@ -20,7 +20,7 @@ class Ex {
 }
 public class Ex1 {
     public static void main(String arg[]) {
-        Ex obj = new Ex();  // fixed
+        Ex obj = new Ex();  
         obj.setName("Saadhvik");
         obj.setMarks(95);
         System.out.println(obj.getName());
